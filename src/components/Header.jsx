@@ -41,7 +41,7 @@ const Header = ({ isAdmin, onLoginClick, onLogout }) => {
             className="flex items-center space-x-2 bg-pink-600 text-white px-4 py-2 rounded-full font-medium transition-colors duration-200 hover:bg-pink-700"
           >
             <LogIn size={18} />
-            <span className="hidden sm:inline">Painel Admin</span>
+            <span>Painel Admin</span>
           </button>
         )}
       </div>

@@ -231,17 +231,6 @@ function AdminPanel({ products, onBackToMarketplace }) {
               />
               <span className="ml-2 text-gray-700">Link (URL)</span>
             </label>
-            <label className="inline-flex items-center">
-              <input
-                type="radio"
-                name="image-type"
-                value="upload"
-                checked={imageInputType === "upload"}
-                onChange={() => setImageInputType("upload")}
-                className="form-radio text-pink-600"
-              />
-              <span className="ml-2 text-gray-700">Upload (PNG, JPG)</span>
-            </label>
           </div>
 
           {imageInputType === "link" ? (

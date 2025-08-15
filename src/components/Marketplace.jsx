@@ -185,7 +185,7 @@ function Marketplace() {
         onLoginClick={handleLoginClick}
         onLogout={handleLogout}
       />
-      <div className="min-h-screen bg-pink-50 font-sans text-gray-800 p-4 sm:p-8 flex flex-col items-center mt-28">
+      <div className="min-h-screen bg-pink-50 font-sans text-gray-800 p-4 lg:mt-25 sm:p-8 flex flex-col items-center mt-18">
         <main className="w-full max-w-7xl mx-auto">
           {showAdminPanel ? (
             isAdmin ? (
